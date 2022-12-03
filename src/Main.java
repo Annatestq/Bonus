@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 200;
-        int c = 800;
-        int percent = (c / 100);
-        if (c >= 1000) {
-            percent = (c / 100);
+        int payment = 800;
+        int percent = (payment / 100);
+        if (payment >= 1001) {
+            percent = (payment / 100);
         } else {
             percent = 0;
         }
-        System.out.println(amount + c + percent);
+        System.out.println(amount + payment + percent);
 
     }
 }
